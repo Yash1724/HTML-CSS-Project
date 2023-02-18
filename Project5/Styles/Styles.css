@@ -1,0 +1,274 @@
+*
+{
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body
+{
+    background-color: #050221;
+}
+/* Header */
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul
+{
+    display: flex;
+    gap: 2vh;    
+}
+
+nav ul li
+{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 800; 
+    color: #ffffff;
+    list-style: none;  
+}
+
+nav ul li a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav:hover
+{
+    background-color: #3f26e3;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+
+.humburger
+{
+    display: none;
+    height: 50px;
+    width: 50px;
+}
+
+/* Main */
+main 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.container
+{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+    color: #ffffff;
+}
+.hand
+{
+    display: flex;
+    align-items: center;
+}
+h5 img
+{
+   
+    height: 30px;
+    width: 30px;
+}
+
+
+h3 
+{
+    color: #9acd32;
+}
+
+.right-section
+{
+    display: flex;
+   
+    height: 300px;
+    width: 300px;
+}
+.container2
+{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.heading
+{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.lower-section
+{
+    
+    display: grid;
+    align-items: center;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    column-gap: 20px;
+}
+
+.lower-section img
+{
+    height: 150px;
+    width: 150px;
+}
+.lower-section p
+{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* Footer */
+footer
+{
+   margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   row-gap: 10px;
+}
+
+footer h1
+{
+    display: flex;
+    color: #ffffff;  
+    justify-content: center;
+}
+
+footer a img
+{
+    height: 35px;
+    width: 35px;
+}
+
+.lower-footer 
+{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+
+
+
+
+hr
+{
+    border: none;
+    background-color:#3f26e3;
+}
+
+@media screen and (max-width: 600px)
+{
+    body
+    {
+        background-color: #050221;
+    }
+    ul
+    {
+        display: none;
+    }
+    .humburger
+    {
+        display: flex;
+        height: 50px;
+        width: 500px;
+    }
+
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hand
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .hand img
+    {
+        height: 80px;
+        width: 80px;
+    }
+
+    .intro-line2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .right-section img
+    {
+       
+        width: 60vw;
+    }
+
+    .container2
+    {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .heading h1
+    {
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    hr
+    {
+        border: 2px solid transparent;
+    background-color:#3f26e3;
+
+    }
+   .lower-section
+   {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+   }
+
+   footer h1
+   {
+    font-size: 40px;
+    font-weight: 700;
+   }
+}
