@@ -1,0 +1,122 @@
+/* Universal Selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Header Section */
+header
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-bottom: 20vh;
+}
+/* Navigation Section */
+nav
+{
+    display: flex;
+    justify-content: space-between; 
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav div.logo
+{
+   height: 70px;
+   width: 180px;
+   align-items: center;
+   padding: 10px; 
+}
+
+nav ul li.side
+{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    margin-right: 40vw;
+    gap: 60px;
+}
+
+nav ul li
+{
+    cursor: pointer;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;    
+}
+
+button.header-btn
+{
+    align-self: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #BB0DC6;
+}
+
+
+
+/* Main Start */
+body
+{
+   /* padding-left: 20px; */
+    background-image: url(../Assets/background-image.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+/* main-section */
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+section h1
+{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+section p
+{
+    color: white;
+    font-size: medium;
+    font-weight: 800;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+section button.main-btn
+{
+    background-color: #BB0DC6;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* End Main Section */
