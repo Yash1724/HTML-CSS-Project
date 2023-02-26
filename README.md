@@ -1,2 +1,3 @@
 # Responsive-Project
-In this reposatory to Responsive Project
+All the HTML  & CSS Project
+
